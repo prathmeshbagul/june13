@@ -11,6 +11,25 @@ namespace Practice
         static void Main(string[] args) {
 
 
+        
+            
+            /*
+              
+             var numbers = new[] { 17.6, 12.4, 10.0 };
+
+            var result = 0.0;
+            foreach (var number in numbers)
+            {
+                result += number;
+
+            }
+            Console.WriteLine(result);
+
+            */
+
+
+
+/*
             var numbers = new double[3];
             numbers[0]=17.6;
             numbers[1] = 12.4;
@@ -19,7 +38,7 @@ namespace Practice
             var result = numbers[0];
             result = result + numbers[1];
             result = result + numbers[2];   
-            Console.WriteLine(result);
+            Console.WriteLine(result);    */
 
 
 
