@@ -8,17 +8,18 @@ namespace Practice
 {
     internal class Class1
     {
-        static void Main(string[] args) {
+        static void Main(string [] args) {
 
 
-        
-            
-            /*
-              
-             var numbers = new[] { 17.6, 12.4, 10.0 };
+
+
+         /*
+            var grades = new List<double>() { 12.6, 21.7, 13.4, 26.1 };
+            grades.Add(90.9);
+
 
             var result = 0.0;
-            foreach (var number in numbers)
+            foreach (var number in grades)
             {
                 result += number;
 
@@ -28,17 +29,34 @@ namespace Practice
             */
 
 
+            /*
 
-/*
-            var numbers = new double[3];
-            numbers[0]=17.6;
-            numbers[1] = 12.4;
-            numbers[2] = 10.0;
+               var numbers = new[] { 17.6, 12.4, 10.0 };
 
-            var result = numbers[0];
-            result = result + numbers[1];
-            result = result + numbers[2];   
-            Console.WriteLine(result);    */
+
+              var result = 0.0;
+              foreach (var number in numbers)
+              {
+                  result += number;
+
+              }
+              Console.WriteLine(result);
+
+              */
+
+
+
+
+            /*
+                        var numbers = new double[3];
+                        numbers[0]=17.6;
+                        numbers[1] = 12.4;
+                        numbers[2] = 10.0;
+
+                        var result = numbers[0];
+                        result = result + numbers[1];
+                        result = result + numbers[2];   
+                        Console.WriteLine(result);    */
 
 
 
