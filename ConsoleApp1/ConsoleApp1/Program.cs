@@ -1,45 +1,39 @@
 ﻿using System;
 
-
 namespace Coding
 {
     class Program
     {
 
-       public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int a;
             Console.WriteLine("Enter number");
-             a = Convert.ToInt32 (Console.ReadLine());
+            a = Convert.ToInt32(Console.ReadLine());
 
-            FindEvenOrOdd( a);
+           bool result = IsEven(a);
+            if (result == true)
+            {
+                Console.WriteLine("Even Number");
+            }
 
-
-
+            else {
+                Console.WriteLine("Odd Number");
+            }
         }
-
-        public static void FindEvenOrOdd(int a) {
+        public static bool IsEven(int a)
+        {
             if (a % 2 == 0)
             {
-                Console.WriteLine("Even");
-                Console.Read();
+                return true;
             }
-            else
-            {
-                Console.WriteLine("Odd");
-                Console.Read();
+           
+            {                  
+                return false;
             }
+
         }
 
-
-
-
-
-
-
-
     }
-
-
 
 }
